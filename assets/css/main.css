@@ -1,3 +1,6 @@
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 .section{
   min-height: 70vh
 }
@@ -8,17 +11,41 @@
 
 a.nav-btn{
   text-decoration: none;
-  background-color:white;
   color:black;
-  padding:1rem;
+  padding:.5rem;
 }
 a.nav-btn:hover{
-  background-color:#F2DA82;
+  /* background-color:#F2DA82; */
 }
 
 .nav-text-row{
   display:static;
   width:100%;
   text-align:center;
-  padding:1rem;
+  padding:.5rem;
+}
+
+#header{
+  position: fixed;
+  width:100%;
+  top:0;
+  z-index:100;
+  background-color:#70d9a9;
+}
+
+#nav-height{
+  min-width:1px;
+  height:56px;
+}
+
+#social-nav{
+  width:100;
+  margin:0 auto;
+}
+
+
+.footer{
+  padding:.5rem;
+  background-color:mediumseagreen;
+  /* color:white; */
 }
