@@ -35,7 +35,8 @@ a.nav-btn:hover{
   width:100%;
   top:0;
   z-index:100;
-  background-color:#70d9a9;
+  /*background-color:#70d9a9;*/
+  background-color:cornsilk;
 }
 
 #nav-height{
@@ -53,4 +54,30 @@ a.nav-btn:hover{
   padding:.5rem;
   background-color:mediumseagreen;
   /* color:white; */
+}
+
+img#me{
+  margin-bottom:1em; 
+  width:80%;
+}
+
+#hi-sm{
+  display:none;
+}
+
+@media only screen and (max-width: 765px) {
+  img#me {
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+    display:block;
+  }
+
+  #hi-sm{
+    display:inline-block;
+  }
+
+  #hi-nm{
+    display:none;
+  }
+    
 }
