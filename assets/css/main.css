@@ -36,7 +36,7 @@ a.nav-btn:hover{
   top:0;
   z-index:100;
   /*background-color:#70d9a9;*/
-  background-color:cornsilk;
+  background-color:#b796b9;
 }
 
 #nav-height{
@@ -52,7 +52,7 @@ a.nav-btn:hover{
 
 .footer{
   padding:.5rem;
-  background-color:mediumseagreen;
+  background-color:#b796b9;
   /* color:white; */
 }
 
